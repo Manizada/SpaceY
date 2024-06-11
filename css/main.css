@@ -1,0 +1,56 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url(./assets/images/espaço\ sideral\ 2.jpg) no-repeat center top/ cover;
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #FFC045;
+    padding: 3px;
+
+}
+
+body::-webkit-scrollbar {
+    width: 12px;
+    background-color: #FFC045
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #4E388E;
+    border-radius: 3px;
+}
+
+.navbar {
+    background-color: #FFC045;
+}
+
+.container {
+    margin: 25px auto;
+}
+
+.card-body {
+    width: 100%;
+    border-radius: 12px 12px 6px 6px;
+    background-color: #4E388E;
+}
+
+.card-button {
+    font-family: 500;
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    background-color: #FFC045;
+    border-radius: 8px;
+    padding: 6px;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+.card-text {
+    font-weight: 500;
+}
