@@ -54,3 +54,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 
+@media (max-width: 992px) {
+    .imagem img {
+        height: 200px;
+    }
+}
+
+@media (max-width: 600px) {
+    .imagem {
+        display: none;
+    }
+}
