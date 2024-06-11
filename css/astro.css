@@ -19,31 +19,30 @@ body::-webkit-scrollbar-thumb {
 
 .navbar {
     background-color: #FFC045;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
 }
 
 .container {
-    margin: 25px auto;
+    background-color: #FFD47F;
+    height: 100%;
 }
 
-.card-body {
-    border-radius: 12px 12px 6px 6px;
-    background-color: #4E388E;
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-.card-button {
-    font-family: 500;
-    text-decoration: none;
-    text-align: center;
-    color: black;
-    background-color: #FFC045;
-    border-radius: 8px;
-    padding: 6px;
+.mini-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+
 }
 
-.card-title {
-    font-weight: 700;
+.imagem img {
+    height: 500px;
 }
 
-.card-text {
-    font-weight: 500;
-}
+
