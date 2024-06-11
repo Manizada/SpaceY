@@ -45,4 +45,12 @@ body::-webkit-scrollbar-thumb {
     height: 500px;
 }
 
+.titulo {
+    font-weight: 700;
+}
+
+.descricao {
+    font-weight: 500;
+}
+
 
