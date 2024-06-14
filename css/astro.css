@@ -4,7 +4,7 @@
 }
 
 body {
-    background: url(./assets/images/espaço\ sideral\ 2.jpg) no-repeat center top/ cover;
+    background: url(./assets/images/espaço\ sideral\ 2.jpg) no-repeat center top / cover;
 }
 
 body::-webkit-scrollbar {
