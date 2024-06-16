@@ -164,12 +164,18 @@ body::-webkit-scrollbar-thumb {
     .contact-icons {
         text-decoration: none;
         color: black;
-        font-size: 126px;
+        font-size: 96px;
     }
 }
 
 @media (max-width: 600px) {
     .imagem img {
         height: 100px;
+    }
+
+    .contact-icons {
+        text-decoration: none;
+        color: black;
+        font-size: 66px;
     }
 }
