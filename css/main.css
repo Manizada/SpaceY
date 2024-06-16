@@ -22,31 +22,49 @@ body::-webkit-scrollbar-thumb {
     
 }
 
-.list li {
-    list-style: none;
-    padding: 8px 12px;
-    display: none;
-    width: 100%;
-    cursor: default;
-    border-radius: 3px;
+.search input{
+    height: 35px;
+    padding: 12px;
+    width: 300px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 1px 5px;
 }
 
-.list li:hover {
-    background-color: #4E388E;
+.search.active input {
+    border-radius: 8px 8px 0 0 ;
 }
 
-.searc.active .list {
+.search .list {
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.search.active .list {
     padding: 10px 8px;
     opacity: 1;
     pointer-events: auto;
 }
 
-.searc.active .list li {
+.list li {
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.search.active .list li {
     display: block;
 }
 
-.searc.active input {
-    border-radius: 5px 5px 0 0;
+.list li:hover {
+    background-color: #efefef;
 }
 
 .container {
@@ -54,8 +72,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border-radius: 12px 12px 6px 6px;
     background-color: #4E388E;
+}
+
+.card img {
+    margin: auto;
+    height: 300px;
+    width: 300px;
 }
 
 .card-button {
@@ -74,4 +101,27 @@ body::-webkit-scrollbar-thumb {
 
 .card-text {
     font-weight: 500;
+}
+
+@media (max-width: 992px) {
+    .search .icon {
+    display: none;
+    }
+
+    .card img {
+        height: 200px;
+        width: 200px;
+    }
+}
+
+@media (max-width: 765px) {
+    .search .icon {
+        display: none;
+    }
+    .card img {
+        margin: auto;
+        align-items: center;
+        width: 200px;
+        height: 200px;
+    }
 }
