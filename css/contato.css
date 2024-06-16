@@ -127,6 +127,10 @@ body::-webkit-scrollbar-thumb {
         flex-direction: column;
     }
 
+    .imagem {
+        align-self: flex-start;
+    }
+
     .imagem img {
         height: 200px;
     }
@@ -174,7 +178,7 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 600px) {
     .imagem img {
-        height: 100px;
+        height: 200px;
     }
 
     .contact-icons {
