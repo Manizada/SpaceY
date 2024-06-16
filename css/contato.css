@@ -17,6 +17,51 @@ body::-webkit-scrollbar-thumb {
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
 }
 
+.search input{
+    height: 35px;
+    padding: 12px;
+    width: 300px;
+    outline: none;
+    border-radius: 8px;
+    border: none;
+    box-shadow: 0 1px 5px;
+}
+
+.search.active input {
+    border-radius: 8px 8px 0 0 ;
+}
+
+.search .list {
+    padding: 0;
+    opacity: 0;
+    pointer-events: none;
+    max-height: 280px;
+    overflow-y: auto;
+}
+
+.search.active .list {
+    padding: 10px 8px;
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.list li {
+    list-style: none;
+    padding: 8px 12px;
+    display: none;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.search.active .list li {
+    display: block;
+}
+
+.list li:hover {
+    background-color: #efefef;
+}
+
 .main-container {
     display: flex;
     justify-content: center;
