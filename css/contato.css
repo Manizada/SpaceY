@@ -2,6 +2,11 @@
     padding: 0;
     margin: 0;
 }
+
+body {
+    background-color: #FFD47F;
+}
+
 body::-webkit-scrollbar {
     width: 12px;
     background-color: #FFC045
@@ -132,7 +137,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .imagem img {
-        height: 200px;
+        height: 250px;
     }
     
     .conteudo {
