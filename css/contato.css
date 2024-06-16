@@ -74,6 +74,7 @@ body::-webkit-scrollbar-thumb {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin: 16px auto;
     width: 80%;
 }
 
@@ -117,6 +118,9 @@ body::-webkit-scrollbar-thumb {
     font-size: 126px;
 }
 
+.contact-icons:hover {
+    color: #4F4F4F;
+}
 
 @media (max-width: 992px) {
     .flex-container {
@@ -176,6 +180,6 @@ body::-webkit-scrollbar-thumb {
     .contact-icons {
         text-decoration: none;
         color: black;
-        font-size: 66px;
+        font-size: 126px;
     }
 }
