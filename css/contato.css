@@ -124,7 +124,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .imagem img {
-        height: 150px;
+        height: 200px;
     }
     
     .conteudo {
@@ -165,5 +165,11 @@ body::-webkit-scrollbar-thumb {
         text-decoration: none;
         color: black;
         font-size: 126px;
+    }
+}
+
+@media (max-width: 600px) {
+    .imagem img {
+        height: 100px;
     }
 }
