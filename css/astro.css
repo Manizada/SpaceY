@@ -120,6 +120,15 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 600px) {
+
+    .mini-content {
+        width: 300px;
+    }
+
+    .content {
+        width: 300px;
+    }
+
     .imagem {
         display: none;
     }
