@@ -20,11 +20,6 @@ body::-webkit-scrollbar-thumb {
 .navbar {
     background-color: #FFC045;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
-    height: 75px;
-}
-
-.navbar a {
-    font-size: 18px;
 }
 
 .search input{
@@ -136,13 +131,15 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 1026px) {
 
     .main-container {
-        padding: 50px;
         height: 100vh;
     }
 
     .flex-container {
-        margin: 50px auto;
         width: 80%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0;
     }
 
     .imagem {
@@ -165,13 +162,12 @@ body::-webkit-scrollbar-thumb {
     
     .contatos {
         width: 100%;
-        margin: auto;
+        margin: 0;
     }
     
     .content {
         display: flex;
         flex-direction: column;
-        gap: 52px;
         text-align: center;
         justify-content: center;
         align-items: center;
@@ -185,7 +181,7 @@ body::-webkit-scrollbar-thumb {
     .icons {
         width: 300px;
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         gap: 36px;
         justify-content: center;
         align-items: center;
@@ -206,7 +202,7 @@ body::-webkit-scrollbar-thumb {
     }
 
     .flex-container {
-        margin: 50px auto;
+        margin: 15px auto;
         width: 80%;
     }
 
@@ -273,12 +269,11 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 600px) {
 
     .main-container {
-        padding: 50px;
         height: 100vh;
     }
 
     .flex-container {
-        margin: 50px auto;
+        margin: 15px auto;
         width: 80%;
     }
 
@@ -291,12 +286,22 @@ body::-webkit-scrollbar-thumb {
     }
 
     .imagem img {
-        height: 150px;
+        height: 100px;
+    }
+
+    .contatos {
+        padding: 0;
+        margin: 0;
+    }
+
+    .content {
+        margin: 0;
+        gap: 0;
     }
 
     .contact-icons {
         text-decoration: none;
         color: black;
-        font-size: 126px;
+        font-size: 78px;
     }
 }
