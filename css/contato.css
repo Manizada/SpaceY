@@ -20,6 +20,7 @@ body::-webkit-scrollbar-thumb {
 .navbar {
     background-color: #FFC045;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
+    height: 75px;
 }
 
 .search input{
@@ -73,6 +74,7 @@ body::-webkit-scrollbar-thumb {
     align-items: center;
     flex-direction: column;
     background-color: #FFD47F;
+    height: 100vh;
 }
 
 .flex-container {
