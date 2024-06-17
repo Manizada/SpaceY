@@ -20,11 +20,6 @@ body::-webkit-scrollbar-thumb {
 .navbar {
     background-color: #FFC045;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.35);
-    height: 75px;
-}
-
-.navbar a {
-    font-size: 18px;
 }
 
 .search input{

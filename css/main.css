@@ -19,11 +19,6 @@ body::-webkit-scrollbar-thumb {
 
 .navbar {
     background-color: #FFC045;
-    height: 75px;
-}
-
-.navbar a {
-    font-size: 18px;
 }
 
 .search input{
