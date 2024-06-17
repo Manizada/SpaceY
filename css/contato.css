@@ -137,9 +137,11 @@ body::-webkit-scrollbar-thumb {
 
     .main-container {
         padding: 50px;
+        height: 100vh;
     }
 
     .flex-container {
+        margin: 50px auto;
         width: 80%;
     }
 
@@ -199,8 +201,15 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 992px) {
     .main-container {
-        padding: 16px;
+        padding: 50px;
+        height: 100vh;
     }
+
+    .flex-container {
+        margin: 50px auto;
+        width: 80%;
+    }
+
 
     .flex-container {
         flex-direction: column;
@@ -262,6 +271,17 @@ body::-webkit-scrollbar-thumb {
 }
 
 @media (max-width: 600px) {
+
+    .main-container {
+        padding: 50px;
+        height: 100vh;
+    }
+
+    .flex-container {
+        margin: 50px auto;
+        width: 80%;
+    }
+
 
     .conteudo {
         display: flex;
