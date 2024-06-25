@@ -85,7 +85,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 .card-button {
-    font-family: 500;
+    font-weight: 500;
     text-decoration: none;
     text-align: center;
     color: black;
