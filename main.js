@@ -5,9 +5,7 @@ inputBox.onkeyup = (e) => {
     let userData = e.target.value;
 
     if(e.key === "Enter") {
-        if(userData) {
-            window.open(userData.toLocaleLowerCase() + ".html");
-        }
+       window.open(userData.toLocaleLowerCase() + ".html"); 
     }
 
 }
