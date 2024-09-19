@@ -5,7 +5,7 @@ inputBox.onkeyup = (e) => {
     let userData = e.target.value;
 
     if(e.key === "Enter") {
-       window.location.href = "/" + userData.toLocaleLowerCase() + ".html"; 
+       window.location.href = userData.toLocaleLowerCase() + ".html"; 
     }
 
 }
